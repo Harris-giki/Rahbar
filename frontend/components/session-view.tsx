@@ -13,8 +13,8 @@ import { AgentControlBar } from "@/components/livekit/agent-control-bar/agent-co
 import { ChatEntry } from "@/components/livekit/chat/chat-entry";
 import { ChatMessageView } from "@/components/livekit/chat/chat-message-view";
 import { MediaTiles } from "@/components/livekit/media-tiles";
-import useChatAndTranscription from "@/Frontend/hooks/useChatAndTranscription";
-import { useDebugMode } from "@/Frontend/hooks/useDebug";
+import useChatAndTranscription from "@/hooks/useChatAndTranscription";
+import { useDebugMode } from "@/hooks/useDebug";
 import type { AppConfig } from "@/lib/types";
 import { cn } from "@/lib/utils";
 

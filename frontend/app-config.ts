@@ -2,7 +2,7 @@ import type { AppConfig } from "./lib/types";
 
 export const APP_CONFIG_DEFAULTS: AppConfig = {
   companyName: "LiveKit",
-  pageTitle: "Radiance",
+  pageTitle: "Rahbar",
   pageDescription: "Pakistan's First Healthcare Voice Assistant",
 
   supportsChatInput: true,

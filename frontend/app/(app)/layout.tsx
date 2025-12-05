@@ -1,5 +1,6 @@
 import { headers } from "next/headers";
 import { getAppConfig } from "@/lib/utils";
+import { DarkModeToggle } from "@/components/dark-mode-toggle";
 
 interface AppLayoutProps {
   children: React.ReactNode;
@@ -20,13 +21,14 @@ export default async function AppLayout({ children }: AppLayoutProps) {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/radiance.png"
-            alt="Radiance Logo"
+            src="/rahbar.png"
+            alt="Rahbar Logo"
             width={120}
             height={40}
           />
         </a>
       </header>
+      <DarkModeToggle />
       {children}
     </>
   );

@@ -12,7 +12,7 @@ import { toastAlert } from "@/components/alert-toast";
 import { SessionView } from "@/components/session-view";
 import { Toaster } from "@/components/ui/sonner";
 import { Welcome } from "@/components/welcome";
-import useConnectionDetails from "@/Frontend/hooks/useConnectionDetails";
+import useConnectionDetails from "@/hooks/useConnectionDetails";
 import type { AppConfig } from "@/lib/types";
 
 const MotionWelcome = motion.create(Welcome);

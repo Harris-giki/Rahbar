@@ -28,17 +28,6 @@ class ProviderMappings:
             'deepgram': deepgram,
             'elevenlabs': elevenlabs,
             # 'upliftai': upliftai,
-            # Special OpenAI providers
-            'with_cerebras_openai': openai,
-            'with_deepseek_openai': openai,
-            'with_fireworks_openai': openai,
-            'with_letta_openai': openai,
-            'with_ollama_openai': openai,
-            'with_azure_openai': openai,
-            'with_perplexity_openai': openai,
-            'with_telnyx_openai': openai,
-            'with_together_openai': openai,
-            'with_x_ai_openai': openai,
         }
         return provider_map.get(provider_name.lower())
 

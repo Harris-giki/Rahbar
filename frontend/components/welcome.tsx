@@ -37,7 +37,7 @@ export const Welcome = ({
       </svg>
 
       <p className="text-fg1 max-w-prose pt-1 leading-6 font-medium">
-        Chat with Radiance now!
+        Chat with Rahbar now!
       </p>
       <Button
         variant="primary"
@@ -49,8 +49,7 @@ export const Welcome = ({
       </Button>
       <footer className="fixed bottom-5 left-0 z-20 flex w-full items-center justify-center">
         <p className="text-fg1 max-w-prose pt-1 text-xs leading-5 font-normal text-pretty md:text-sm">
-          Uplifting Pakistan&apos;s Remote Areas through &apos;Reliable&apos;
-          and &apos;Easliy Accessible&apos; Healthcare with
+          Reliable, Affordable, and Effortless Tax Filing for Every Pakistani with
           <span> </span>{" "}
           <span className="underline">
             AI powered Telephony/Web Voice AI Agents
